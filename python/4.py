@@ -10,6 +10,9 @@
 #     kamtar = 0
 #     bishtar = 0
 #     for j in range(len(mylist)):
+        # tebgh tozihat daghigh soal ke gofte daghighan che chizi ro bayad miane farz konim shart mosavi , ...
+        # bardashte shod. ba in tozihat list [1,2,2,2,5] ham miane nadare. vali age bekhaim ain ghabl dar nazar
+        # begirim hamoon sort konim va vasati ro be onvan miane dar nazar begirim rahat tarim :))
 #         if mylist[j] < mylist[i] :
 #             kamtar = kamtar + 1
             
@@ -74,30 +77,28 @@
 #         mylist.append(i)
 # print(mylist)
 # --------
-
 # 7
+# a = [4,8,7,1,0,-5,-7]
+# output = []
 
-a = [4,8,7,1,0,-5,-7]
-output = []
-
-# paida kardan bishtarin ozv yek lise ke khorooji bede.
-def find_max(lst):
-    if len(lst) > 0 :
-        mymax = lst[0]
-        for i in lst:
-            if mymax < i:
-                mymax = i
-        return mymax
-    else:
-        return "hichi"
+# # paida kardan bishtarin ozv yek lise ke khorooji bede.
+# def find_max(lst):
+#     if len(lst) > 0 :
+#         mymax = lst[0]
+#         for i in lst:
+#             if mymax < i:
+#                 mymax = i
+#         return mymax
+#     else:
+#         return "hichi"
 
 
-for i in range(len(a)):
+# for i in range(len(a)):
     
-    if i % 2 == 0: # dafat zoj bayad be samt chap ezafe she
-        output.insert(0,a.pop(a.index(find_max(a)))) # bishtarn ozv ro paida mikonim. 
-        # andise bishtarin ozv ro paida mikonim. oon ozv ro az a pop mikonim , be samt chap ezafe mikonim
-    else: # dafat fard bayad be samt rast ezafe she
-        output.append(a.pop(a.index(find_max(a))))
+#     if i % 2 == 0: # dafat zoj bayad be samt chap ezafe she
+#         output.insert(0,a.pop(a.index(find_max(a)))) # bishtarn ozv ro paida mikonim. 
+#         # andise bishtarin ozv ro paida mikonim. oon ozv ro az a pop mikonim , be samt chap ezafe mikonim
+#     else: # dafat fard bayad be samt rast ezafe she
+#         output.append(a.pop(a.index(find_max(a))))
         
-print(output)
+# print(output)
