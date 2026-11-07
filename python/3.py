@@ -163,4 +163,62 @@
 #     mylist2.append(mylist[c])
 #     c = c + 1
 # ------
-# 5
+# 6
+# n=int(input())
+# afrad=[]
+# i=1
+# while i<=n:
+#     afrad.append(i)
+#     i=i+1
+# marg=1 # vaghti yek bashe yani az aval mikhaim bokoshim va vaghti -1 bashe yani dar in dor nafar aval nemimire
+        # dar marhale aval bayad az aval shoroo konim koshtan 
+# while len(afrad)>1:
+#     print(afrad)
+#     zendeha=[] # afradi ke dar in dor zende mimoonan
+#     k=marg # baraye koshtan yeki dar mioon age
+#     j=0 # andis fardi ke mikahim barresi konim
+#     while j<len(afrad):
+#         if k<0:
+#             zendeha.append(afrad[j])
+#         k=k*(-1) # age k == 1 bood dar marhale bad bayad beshe manfi yek ke nakoshim
+#         j=j+1
+#     if len(afrad)%2==1:
+#         marg=marg*(-1)
+#     afrad=zendeha
+# print(afrad)
+# print([])
+
+# -------------
+# soal 7
+# baraye zir araye motevali ye i daram ke shoroo zir araye ro moshakhas mikone va yek j daram ke payan zir
+# araye ro moshakhas mikone. pas i az 0 shoroo mishe ta n , j az i shoroo mishe ta n chon hamishe payan baad
+# shoroo ast.
+# n = int(input())
+# mylist = []
+# for i in range(n):
+#     mylist.append(int(input()))
+
+# if n > 0 :    
+#     max_maj = mylist[0] # bishtarin max ke paida kardim
+#     i_max = 0 # i bishtarin baraye khorooji dadan
+#     j_max = 0 # j bishtarin baraye khorooje dadan
+#     for i in range(len(mylist)):
+#         for j in range(i,len(mylist)):
+#             maj = 0
+#             for k in range(i,j+1):
+#                 maj = mylist[k] + maj 
+#             if max_maj < maj:
+#                 max_maj = maj
+#                 i_max = i
+#                 j_max = j
+                
+#     output_list = []
+#     print(i_max,j_max)      
+#     for k in range(i_max,j_max + 1):
+#         output_list.append(mylist[k])
+#     print(output_list)
+# else:
+#     print([])
+
+
+# -------------
